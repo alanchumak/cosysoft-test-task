@@ -25,31 +25,7 @@ code {
   box-sizing: border-box;
 }
 
-button {
-  font-family: 'Open Sans';
-  font-style: normal;
-  font-weight: bold;
-  font-size: 14px;
-  line-height: 22px;
 
-  border: 1px solid #e3e4e7;
-  border-radius: 5px;
-  color: #277be9;
-  background-color: transparent;
-
-  margin-bottom: 25px;
-  padding: 7px 12px;
-}
-
-button:hover{
-  background-color: #e8e8e8;
-  transition: background-color 150ms linear;
-  cursor: pointer;
-}
-
-button:not(:focus){
-  transition: background-color 150ms linear;
-}
 
 
 .ReactModal__Overlay {

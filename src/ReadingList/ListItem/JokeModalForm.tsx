@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from './JokeModalForm.module.css'
-import jokeStyles from '../../JokeList/Joke.module.css'
+import jokeStyles from '../../JokeList/JokeItem/JokeItem.module.css'
 import Joke from '../../features/jokes/Joke'
 import Modal from 'react-modal'
 
@@ -20,6 +20,7 @@ const customStyles = {
         bottom: 'auto',
         marginRight: '-50%',
         transform: 'translate(-50%, -50%)',
+        paddingTop: '10px'
     },
     overlay: {
         backgroundColor: 'rgba(0, 0, 0, 0.3)'
@@ -36,7 +37,7 @@ export const JokeModalForm = ({ joke, open = false, onClose }: JokeModalFormProp
             style={customStyles}
             contentLabel="Example Modal"
         >
-            <button className={styles.button} onClick={onClose}>
+            <button className={styles.closeButton} onClick={onClose}>
                 ×
             </button>
 

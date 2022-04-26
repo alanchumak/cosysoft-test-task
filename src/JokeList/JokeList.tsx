@@ -1,8 +1,8 @@
 import React, { useEffect } from 'react'
-import styles from './Joke.module.css'
+import styles from './JokeList.module.css'
 import { selectTenJokes, fetchJokes } from '../features/jokes/jokesSlice'
 import { useAppSelector, useAppDispatch } from '../app/hooks'
-import { JokeItem } from './JokeItem'
+import { JokeItem } from './JokeItem/JokeItem'
 import Joke from '../features/jokes/Joke'
 
 
@@ -25,7 +25,9 @@ export const JokeList = () => {
 
     return(
         <div className={styles.jokeList}>
-            <button onClick={onClicked}>Получить 10 новых шуток</button>
+            <button className={styles.newJokesButton} onClick={onClicked}>
+                Получить 10 новых шуток
+            </button>
             {content}
             
         </div>

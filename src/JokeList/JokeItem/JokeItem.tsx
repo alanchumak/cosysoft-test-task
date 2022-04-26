@@ -1,9 +1,9 @@
 import React from 'react'
-import styles from './Joke.module.css'
-import { jokeSavedToReadingList } from '../features/jokes/jokesSlice'
-import Joke from '../features/jokes/Joke'
-import { selectTenJokes } from '../features/jokes/jokesSlice'
-import { useAppSelector, useAppDispatch } from '../app/hooks'
+import styles from './JokeItem.module.css'
+import { jokeSavedToReadingList } from '../../features/jokes/jokesSlice'
+import Joke from '../../features/jokes/Joke'
+import { selectTenJokes } from '../../features/jokes/jokesSlice'
+import { useAppSelector, useAppDispatch } from '../../app/hooks'
 
 
 interface IJokeItemProps {
