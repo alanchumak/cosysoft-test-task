@@ -1,5 +1,5 @@
 import React from 'react'
-import styles from './ReadingList.module.css'
+import styles from './ListItem.module.css'
 
 
 // width = "512" height = "512"

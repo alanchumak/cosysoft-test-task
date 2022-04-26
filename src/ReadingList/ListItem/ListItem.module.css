@@ -1,0 +1,56 @@
+.listItem {
+    padding: 10px 18px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.listItem:hover {
+    background-color: #e8e8e8;
+    transition: background-color 150ms linear;
+}
+
+.listItem:not(:focus) {
+    transition: background-color 150ms linear;
+}
+
+.timeAgo {
+    color: #5f6368;
+    font-size: 12px;
+}
+
+.bookmarkIcon {
+    margin-right: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.deleteBtn {
+    color: #5f6368;
+    font-size: 20px;
+    border-radius: 50%;
+    min-width: 26px;
+    height: 26px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-left: 10px;
+    display: none;
+}
+
+.listItem:hover .deleteBtn {
+    display: flex;
+}
+
+.deleteBtn:hover {
+    background-color: #d3d3d4;
+    transition: background-color 150ms linear;
+}
+
+.text {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}

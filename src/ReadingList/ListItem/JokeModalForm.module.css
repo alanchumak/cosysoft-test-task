@@ -1,0 +1,26 @@
+.jokeModalFormContent {
+    /* height: 75px; */
+    border: 1px solid #e3e4e7;
+    border-radius: 5px;
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+
+    margin-bottom: 5px;
+    padding: 10px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin-top: 35px;
+}
+
+.jokeModalFormContent span {
+    /* color: #5f6368; */
+    font-weight: bold;
+    /* font-weight: 500; */
+}

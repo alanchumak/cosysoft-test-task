@@ -17,73 +17,6 @@
     overflow: auto;
 }
 
-.listItem {
-    padding: 10px 18px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-
-    /* white-space: nowrap;
-    text-overflow: ellipsis; */
-}
-
-.listItem:hover {
-    background-color: #e8e8e8;
-    transition: background-color 150ms linear;
-}
-
-.listItem:not(:focus) {
-    transition: background-color 150ms linear;
-}
-
-.timeAgo {
-    color: #5f6368;
-    font-size: 12px;
-}
-
-.bookmarkIcon {
-    margin-right: 18px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    /* flex: 1; */
-}
-
-.deleteBtn {
-    color:#5f6368;
-    font-size: 20px;
-    border-radius: 50%;
-    min-width: 26px;
-    height: 26px;
-    /* padding: 5px; */
-    /* border: 1px solid black; */
-    /* text-align: center; */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    margin-left: 10px;
-    display: none;
-
-    /* flex: 1; */
-    /* flex: auto; */
-}
-
-.listItem:hover .deleteBtn {
-    display: flex;
-}
-
-.deleteBtn:hover {
-    background-color: #d3d3d4;
-    transition: background-color 150ms linear;
-}
-
-.text {
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-}
 
 .header {
     /* border-bottom: 1px solid #f5f6f7; */
@@ -96,23 +29,4 @@
   font-weight: bold;
 }
 
-.jokeModalFormContent{
-        /* height: 75px; */
-        border: 1px solid #e3e4e7;
-        border-radius: 5px;
-    
-        font-family: 'Open Sans';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 14px;
-        line-height: 22px;
-    
-        margin-bottom: 5px;
-        padding: 10px;
-    
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
 
-        margin-top: 35px;
-}
