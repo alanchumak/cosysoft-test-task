@@ -2,7 +2,7 @@ import React from 'react'
 import styles from './ReadingList.module.css'
 import { selectReadingList } from '../features/jokes/jokesSlice'
 import { useAppSelector } from '../app/hooks'
-import { ListItem } from './ListItem'
+import { ListItem } from './ReadingListItem'
 import Joke from '../features/jokes/Joke'
 
 

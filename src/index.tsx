@@ -10,11 +10,6 @@ import { createRoot } from 'react-dom/client';
 import Modal from 'react-modal';
 
 
-/* Добавить overflow: auto; 
-turn on localStore
-delete counter
-*/
-
 const container = document.getElementById('root')!;
 const root = createRoot(container);
 

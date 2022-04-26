@@ -64,6 +64,11 @@
     cursor: default;
 }
 
+.addBtn:active{
+    background-color: #d3d3d4c0;
+    box-shadow: 0 0 0 5px #d3d3d4c0;
+}
+
 .setup{
     color: blue;
 }

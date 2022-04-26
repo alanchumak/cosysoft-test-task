@@ -1,5 +1,5 @@
 import { createSlice, PayloadAction } from '@reduxjs/toolkit'
-import type { RootState } from '../../app/store2'
+import type { RootState } from '../../app/store'
 import Joke from './Joke'
 
 interface JokesState {
@@ -39,8 +39,8 @@ export const jokesSlice = createSlice({
         state.readingList.push(joke)
       // state.readingList[id] = state.jokes[id]
     },
-    jokeRemovedFromReadingList(state, action) {
-      const { id } = action.payload
+    jokeRemovedFromReadingList(state, action: PayloadAction<number>) {
+      const id  = action.payload
       const joke = state.readingList.find(item => item.id == id) as Joke
       const index = state.readingList.indexOf(joke) 
       state.readingList.splice(index, 1)

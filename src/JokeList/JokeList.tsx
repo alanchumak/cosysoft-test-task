@@ -8,7 +8,7 @@ import Joke from '../features/jokes/Joke'
 
 export const JokeList = () => {
     const dispatch = useAppDispatch()
-    const jokes = useAppSelector(selectTenJokes)
+    const jokes: Array<Joke> = useAppSelector(selectTenJokes)
     const jokesStatus: string = useAppSelector(state => state.jokes.status)
 
     useEffect(() => {
