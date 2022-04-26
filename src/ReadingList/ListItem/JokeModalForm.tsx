@@ -37,9 +37,11 @@ export const JokeModalForm = ({ joke, open = false, onClose }: JokeModalFormProp
             style={customStyles}
             contentLabel="Example Modal"
         >
-            <button className={styles.closeButton} onClick={onClose}>
-                ×
-            </button>
+            <div style={{ direction: 'rtl' }}>
+                <button className={styles.closeButton} onClick={onClose}>
+                    ×
+                </button>
+            </div>
 
             <div className={styles.jokeModalFormContent} >
                 <div className={jokeStyles.text}>

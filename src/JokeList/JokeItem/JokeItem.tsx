@@ -35,12 +35,12 @@ const SaveButton = ({ jokeId }: ISaveButtonProps) => {
     const dispatch = useAppDispatch()
 
     return (
-        <div
+        <button
             className={styles.addBtn}
             title='Добавить в мой список'
             onClick={() => dispatch(jokeSavedToReadingList(jokeId)) }
         >
             +
-        </div>
+        </button>
     )
 }

@@ -20,9 +20,7 @@
 }
 
 .jokeModalFormContent span {
-    /* color: #5f6368; */
     font-weight: bold;
-    /* font-weight: 500; */
 }
 
 .closeButton{
@@ -30,6 +28,9 @@
     color:#7d8085;
     font-size: x-large;
     background-color: transparent;
+    position: relative;
+    left: 5px;
+    /* top: -5px; */
 }
 
 .closeButton:hover{
